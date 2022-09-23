@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <title> Digital Diner </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style/login.css" rel="stylesheet">
+</head>
+<body>
+  <style>
+    body {
+      background-image: url('images/resto.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+    
+    }
+  </style>
+  <section class="headerpic">
+     <img src="images/loginlogo.png">
+  </section>
+  <center><p> A way of smart service </p></center>
+  <script src="login.js"></script>
+  <div class="login-page">
+  <div class="form">
+    
+      <input type="tel"
+           name="phone_number"
+           id="phone_number"
+           pattern="^\d{10}$"
+           placeholder="Enter Mobile number" 
+           required="required"
+          />
+          <a href="mainpage.html">
+      <input type="text" name="text" placeholder="Enter Table number(1-9)" pattern="^\d{1}$"required>
+      <input class="submit-form" type="submit" name="submit" value="Proceed"  class="btn btn-primary">
+    </a>
+    
+  </div>
+</div>
+</body>
+</html>
